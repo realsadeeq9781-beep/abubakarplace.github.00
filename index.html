@@ -7,141 +7,145 @@
 
 <link rel="stylesheet" href="style.css">
 
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#0f172a,#1e3a8a,#06b6d4);
-color:white;
-text-align:center;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.container{
-padding:40px 20px;
-}
-
-.profile-img{
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-border:5px solid #00ffff;
-box-shadow:0 0 25px cyan;
-animation:float 3s infinite ease-in-out;
-}
-
-@keyframes float{
-0%{transform:translateY(0);}
-50%{transform:translateY(-10px);}
-100%{transform:translateY(0);}
-}
-
-h3{
-color:#ffd700;
-margin-top:20px;
-}
-
-h1 span{
-color:#00ffff;
-}
-
-.type{
-font-size:22px;
-font-weight:bold;
-margin:20px 0;
-}
-
-.about{
-max-width:700px;
-margin:auto;
-line-height:1.8;
-font-size:18px;
-padding:0 15px;
-}
-
-.buttons{
-margin-top:30px;
-}
-
-.btn{
-display:inline-block;
-margin:10px;
-padding:15px 30px;
-text-decoration:none;
-font-weight:bold;
-border-radius:30px;
-background:#00ffff;
-color:#000;
-transition:.3s;
-}
-
-.btn:hover{
-background:white;
-transform:scale(1.05);
-}
-
-.social{
-margin-top:35px;
-}
-
-.social a{
-text-decoration:none;
-font-size:30px;
-margin:10px;
-color:white;
-}
-
-footer{
-margin-top:50px;
-padding:20px;
-background:#00000044;
-}
-</style>
-
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
+<header>
 
-<img src="profile.jpg" alt="Abubakarplace" class="profile-img">
+<div class="logo">
+<img src="profile.jpg" alt="Abubakarplace">
+<h2>King <span>Sirdique</span></h2>
+</div>
 
-<h3>👋 WELCOME</h3>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<h1>Hi, I'm <span>Abubakarplace</span></h1>
+</header>
 
-<div class="type">
+<section class="hero" id="home">
+
+<div class="hero-image">
+<img src="profile.jpg" alt="Abubakarplace">
+</div>
+
+<div class="hero-text">
+
+<h3>Hello, I'm</h3>
+
+<h1>
+Abubakar <br>
+Abdullahi
+</h1>
+
+<h2>
 Graphic Designer |
 Photo & Video Editor |
-AI Content Creator |
-Professional House Painter
-</div>
+AI Content Creator
+</h2>
 
-<div class="about">
-I'm a professional Graphic Designer, Photo & Video Editor, AI Content Creator and House Painter.
-
-I create high-quality flyers, invitation cards, logos, banners, social media designs, business cards, certificates and modern digital content.
-
-I also provide professional house painting and decoration services with quality finishing and customer satisfaction as my priority.
-</div>
+<p>
+I'm a professional Graphic Designer, Photo Editor, Video Editor and AI Content Creator with experience in creating high-quality flyers, invitation cards, banners, logos, social media designs and creative digital content. I also provide professional house painting and decoration services with modern finishing and customer satisfaction as my priority.
+</p>
 
 <div class="buttons">
-<a href="https://wa.me/2349165132561" class="btn">Hire Me</a>
 
-<a href="tel:+2349165132561" class="btn">Call Me</a>
+<a href="https://wa.me/2349165132561" class="btn">
+Hire Me
+</a>
+
+<a href="tel:+2349165132561" class="btn2">
+Call Me
+</a>
+
 </div>
 
-<div class="social">
-<a href="#">📘</a>
-<a href="#">📸</a>
-<a href="#">▶️</a>
-<a href="#">💬</a>
 </div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<p>
+I specialize in modern graphic design, branding, photo manipulation, video editing and AI-powered content creation. My goal is to provide professional designs that help businesses and individuals grow their brand.
+</p>
+
+</section>
+
+<section id="services" class="services">
+
+<h2>My Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Logos, Flyers, Posters, Business Cards, Banners.</p>
+</div>
+
+<div class="card">
+<h3>Photo Editing</h3>
+<p>Professional Photo Retouching and Manipulation.</p>
+</div>
+
+<div class="card">
+<h3>Video Editing</h3>
+<p>Reels, Promo Videos and Social Media Videos.</p>
+</div>
+
+<div class="card">
+<h3>AI Content</h3>
+<p>AI Images, AI Designs and Creative Digital Content.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Me</h2>
+
+<p>
+📞 Phone:
+<a href="tel:+2349165132561">
+09165132561
+</a>
+</p>
+
+<p>
+💬 WhatsApp:
+<a href="https://wa.me/2349165132561">
+Chat on WhatsApp
+</a>
+</p>
+
+<p>
+📧 Email:
+<a href="mailto:abubakarsadeeq8533@gmail.com">
+abubakarsadeeq8533@gmail.com
+</a>
+</p>
+
+</section>
 
 <footer>
-© 2026 Abubakarplace. All Rights Reserved.
-</footer>
 
-</div>
+<p>
+© 2026 Abubakarplace. All Rights Reserved.
+</p>
+
+</footer>
 
 <script src="script.js"></script>
 
