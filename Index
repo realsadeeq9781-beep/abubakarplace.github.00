@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abubakarplace | Portfolio</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#0ea5e9);
+background-size:400% 400%;
+animation:bgMove 12s infinite alternate;
+color:white;
+overflow-x:hidden;
+}
+
+@keyframes bgMove{
+0%{background-position:left;}
+100%{background-position:right;}
+}
+
+.container{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+min-height:100vh;
+padding:20px;
+}
+
+img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid white;
+box-shadow:0 0 30px cyan;
+object-fit:cover;
+margin-bottom:25px;
+}
+
+h3{
+font-size:20px;
+letter-spacing:3px;
+color:#00ffff;
+animation:fade 2s infinite alternate;
+}
+
+h1{
+font-size:45px;
+margin:15px 0;
+}
+
+.type{
+font-size:22px;
+font-weight:bold;
+color:#00ffff;
+margin-bottom:20px;
+}
+
+.about{
+max-width:700px;
+font-size:18px;
+line-height:1.8;
+color:#f1f1f1;
+margin-bottom:35px;
+}
+
+.buttons a{
+display:inline-block;
+margin:8px;
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+background:white;
+color:#0f172a;
+transition:.4s;
+}
+
+.buttons a:hover{
+transform:scale(1.08);
+background:#00ffff;
+}
+
+.social{
+margin-top:30px;
+}
+
+.social a{
+font-size:30px;
+margin:12px;
+color:white;
+transition:.4s;
+}
+
+.social a:hover{
+color:#00ffff;
+transform:scale(1.2);
+}
+
+@keyframes fade{
+from{opacity:.4;}
+to{opacity:1;}
+}
+
+footer{
+padding:20px;
+text-align:center;
+background:#00000044;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="profile.jpg">
+
+<h3>👋 WELCOME</h3>
+
+<h1>Hi, I'm <span style="color:#00ffff;">Abubakarplace</span></h1>
+
+<div class="type">
+Graphic Designer | Photo & Video Editor | AI Content Creator | Professional House Painter
+</div>
+
+<div class="about">
+
+I'm a professional Graphic Designer, Photo Editor, Video Editor and AI Content Creator with experience in creating high-quality flyers, invitation cards, banners, logos, social media designs and creative digital content.
+
+I also provide professional house painting and decoration services with modern finishing and customer satisfaction as my priority.
+
+</div>
+
+<div class="buttons">
+
+<a href="https://wa.me/2349165132561">Hire Me</a>
+
+<a href="tel:+2349165132561">Call Me</a>
+
+</div>
+
+<div class="social">
+
+<a href="https://wa.me/2349165132561"><i class="fab fa-whatsapp"></i></a>
+
+<a href="https://www.tiktok.com/@Place_official00"><i class="fab fa-tiktok"></i></a>
+
+<a href="https://www.instagram.com/sirdique0"><i class="fab fa-instagram"></i></a>
+
+<a href="mailto:abubakarsadeeq8533@gmail.com"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Abubakarplace. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
